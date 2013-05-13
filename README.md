@@ -33,11 +33,11 @@ For example :
 
 add line to soapui.sh
 
-JAVA_OPTS="$JAVA_OPTS -javaagent:/<path>/JavaMatePatch-1.0.0-SNAPSHOT.jar=Metacity"
+JAVA_OPTS="$JAVA_OPTS -javaagent:/path/JavaMatePatch-1.0.0-SNAPSHOT.jar=Metacity"
 
 2.oracle sqldeveloper
 
 add line to jdk.conf
 
-AddVMOption -javaagent:/<path>/JavaMatePatch-1.0.0-SNAPSHOT.jar=Metacity
+AddVMOption -javaagent:/path/JavaMatePatch-1.0.0-SNAPSHOT.jar=Metacity
 
