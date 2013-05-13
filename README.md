@@ -29,13 +29,13 @@ Mate desktop uses Metacity.
 
 For example :
 
-soapui
+1.soapui
 
 add line to soapui.sh
 
 JAVA_OPTS="$JAVA_OPTS -javaagent:/<path>/JavaMatePatch-1.0.0-SNAPSHOT.jar=Metacity"
 
-oracle sqldeveloper
+2.oracle sqldeveloper
 
 add line to jdk.conf
 
