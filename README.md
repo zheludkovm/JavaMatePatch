@@ -37,7 +37,7 @@ JAVA_OPTS="$JAVA_OPTS -javaagent:/path/JavaMatePatch-1.0.0-SNAPSHOT.jar=Metacity
 
 2.oracle sqldeveloper
 
-add line to jdk.conf
+add line to sqldeveloper/ide/bin/jdk.conf
 
 AddVMOption -javaagent:/path/JavaMatePatch-1.0.0-SNAPSHOT.jar=Metacity
 
