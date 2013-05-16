@@ -1,7 +1,7 @@
 JavaMatePatch
 =============
 
-Simple patch java classes to control WM name
+Simple javaagent to control WM name
 
 
 Aimed to resolve bug : java swing apps incorrectly working in full screen on mate desktop
