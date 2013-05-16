@@ -3,19 +3,17 @@ JavaMatePatch
 
 Simple javaagent to control WM name
 
+Aimed to resolve bug : java swing appsworks incorrectly if launched full screen on mate desktop
 
-Aimed to resolve bug : java swing apps incorrectly working in full screen on mate desktop
+global menu opens and immediately closes on mouse click
 
-global menu open and immediately close on mouse click
+it happens because java can't detect Window Manager name.
 
-it happens because of java can't detect Window Manager name.
+java asks name of root x window and receives nothing.
 
-java asks name of root x window and receive nothing.
+My patch just instruments one method in jdk class XNETProtocol - forces it to return custom Window Manager name instead of asking xwindow name
 
-My patch just instrument one method in jdk class XNETProtocol - forces it to return custom Window Manager name instead of asking xwindow name
-
-This patch use javassist to instrument class, so dont forget copy javassist lib from 
-build to the same directory as JavaMatePatch-1.0.0-SNAPSHOT.jar
+This patch uses javassist to instrument class, so dont forget copy javassist lib from build to the same directory as JavaMatePatch-1.0.0-SNAPSHOT.jar
 
 To run any application in mate just add
 
