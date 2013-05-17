@@ -3,7 +3,7 @@ JavaMatePatch
 
 Simple javaagent to control WM name
 
-Aimed to resolve bug : java swing appsworks incorrectly if launched full screen on mate desktop
+Aimed to resolve bug : java swing apps works incorrectly if launched full screen on mate desktop
 
 global menu opens and immediately closes on mouse click
 
